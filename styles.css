@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    background-image:
+        linear-gradient(rgba(2, 62, 138, 0.5), rgba(2, 62, 138, 0.5)),
+        url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    color: #fefefe;
+    line-height: 1.4;
+    width: 100%;
+    min-height: 100vh; /* Set a minimum height to cover the viewport height */
+}
+
+
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    background: linear-gradient(115deg, rgba(0, 180, 216, 0.5), rgba(0, 180, 216, 0.7));
+    border: none;
+    border-radius: 3px;
+
+}
+
+#name-label,
+#email-label,
+#number-label {
+    text-align: left;
+}
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 1rem;
+    padding: 8px 5px 8px 10px;
+    border-radius: 5px;
+    border: none;
+    /* transition: border-color 0.3s ease; Smooth transition for border color change */
+}
+
+/* Apply different border color when input is focused */
+input:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid #007bff; /* Change border color and style as needed */
+    outline: none; /* Remove default focus outline if desired */
+}
+
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+
+
+}
+
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+
+
+h1,p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin: 5px auto 30px auto;
+    font-size: 1.1em;
+ 
+}
+
+#title {
+    font-weight: 500;
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); */
+    margin-bottom: 10px;
+}
+
+label.radio,
+label.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: -8px;
+    vertical-align: middle;
+    
+    
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.3rem;
+    height: 20px;
+    width: 20px;
+    vertical-align:middle;
+    margin-top: 16px;
+}
+
+label.main {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: left;
+    
+}
+
+#submit {
+    background-color: #023e8a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+#submit:hover {
+    background-color: #001f54;
+}
+
+.suggestion {
+    margin-top: 22px
+}
